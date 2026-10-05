@@ -1,4 +1,6 @@
 package bridgegame;
 
-public class GameRenderer {
+public interface GameRenderer {
+    void renderCharacter(String name, int level);
+    void renderAttack(String characterName, String attack);
 }
